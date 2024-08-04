@@ -16,6 +16,7 @@
       name: common
       tasks_from: app-pre-req
 
+
  # if there is any change in configuration, need to restart
   - name: copy backend conf
     ansible.builtin.template:
